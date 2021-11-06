@@ -6,18 +6,25 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
+import static java.lang.Math.*;
+import static java.lang.System.*;
+
 public class Main {
 
     //chapter 1
     //1.1
     public static void toBOH(){
-        Scanner tmp = new Scanner(System.in);
+        out.println("Enter int value:");
+        Scanner tmp = new Scanner(in);
         int num = tmp.nextInt();
-        System.out.println(Integer.toBinaryString(num));
-        System.out.println(Integer.toOctalString(num));
-        System.out.println(Integer.toHexString(num));
-        double dnum = (double) 1/num;
-        System.out.println(Double.toHexString(dnum));
+        out.println("Binary:");
+        out.println(Integer.toBinaryString(num));
+        out.println("Octal:");
+        out.println(Integer.toOctalString(num));
+        out.println("Hex:");
+        out.println(Integer.toHexString(num));
+        out.println("Reciprocal Hex:");
+        out.println(Double.toHexString((double) 1/num));
 
     }
     //1.2
@@ -34,7 +41,9 @@ public class Main {
 
     //1.3
     public static int maximum(){
-        Scanner tmp = new Scanner(System.in);
+        out.println("Enter int array (3 values):");
+
+        Scanner tmp = new Scanner(in);
         int []nums = new int[3];
         for (int i=0; i< 3;i++)
             nums[i] = tmp.nextInt();
@@ -49,7 +58,8 @@ public class Main {
     }
 
     public static int maximumMath(){
-        Scanner tmp = new Scanner(System.in);
+        out.println("Enter int array (3 values):");
+        Scanner tmp = new Scanner(in);
         int []nums = new int[3];
         for (int i=0; i< 3;i++)
             nums[i] = tmp.nextInt();
@@ -59,10 +69,14 @@ public class Main {
     //1.4
 
     public static void maxMin(){
-        Scanner tmp = new Scanner(System.in);
+        out.println("Enter double value:");
+
+        Scanner tmp = new Scanner(in);
         double num = tmp.nextDouble();
 
-        System.out.println(Math.nextUp(num));
+        out.println(nextUp(num));
+        out.println(nextDown(num));
+
 
     }
     //1.6
@@ -92,7 +106,7 @@ public class Main {
         Arrays.sort(ex);
 
         for(int i=0;i<6;i++)
-            System.out.println(ex[i]);
+            out.println(ex[i]);
 
 
     }
@@ -109,7 +123,7 @@ public class Main {
         //System.out.println(maximum());
         //System.out.println(maximumMath());
 
-        //1.4 недоделано
+        //1.4
         //maxMin();
 
         //1.6
@@ -124,7 +138,7 @@ public class Main {
         //Point point = new Point(3,4).translate(1,3).scale(0.5);
         //System.out.println(point);
 
-        //2.9
+
 
         //chapter 3
 
