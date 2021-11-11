@@ -12,8 +12,8 @@ public class Line extends Shape {
     }
 
     @Override
-    public Line clone(){
-        return new Line(point, to);
+    public Line clone() throws CloneNotSupportedException {
+        return (Line) super.clone();
     }
 
     @Override

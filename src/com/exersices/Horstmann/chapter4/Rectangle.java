@@ -14,8 +14,8 @@ public class Rectangle extends Shape {
     }
 
     @Override
-    public Rectangle clone(){
-        return new Rectangle(point, width, height);
+    public Rectangle clone() throws CloneNotSupportedException{
+        return (Rectangle) super.clone();
     }
 
 
