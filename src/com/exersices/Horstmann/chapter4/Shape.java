@@ -20,7 +20,7 @@ public abstract class Shape {
 
     public Shape(Point point)
     {
-        this.point = new Point(point.getX(), point.getY());
+        this.point = point;
 
     }
 

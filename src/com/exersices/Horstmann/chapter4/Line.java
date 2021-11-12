@@ -8,7 +8,7 @@ public class Line extends Shape implements Cloneable {
     public Line(Point from, Point to)
     {
         super(from);
-        this.to = new Point(to.getX(), to.getY());
+        this.to = to;
     }
 
     @Override
