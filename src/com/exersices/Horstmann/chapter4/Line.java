@@ -2,7 +2,7 @@ package com.exersices.Horstmann.chapter4;
 
 import com.exersices.Horstmann.chapter2.Point;
 
-public class Line extends Shape {
+public class Line extends Shape implements Cloneable {
     private Point to;
 
     public Line(Point from, Point to)
