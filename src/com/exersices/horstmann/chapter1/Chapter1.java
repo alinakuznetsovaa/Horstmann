@@ -96,7 +96,10 @@ public class Chapter1 {
     //BigInteger. Compute the factorial of 1000.
 
     public static BigInteger getFactorial(int a) {
+        if(a == 0 || a == 1 )
+            return BigInteger.valueOf(1);
         BigInteger result = BigInteger.valueOf(1);
+        
         for (int i = 2; i < a+1; i++) {
             result = result.multiply(BigInteger.valueOf(i));
         }
