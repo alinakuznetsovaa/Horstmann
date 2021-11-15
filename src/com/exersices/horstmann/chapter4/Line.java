@@ -1,6 +1,6 @@
-package com.exersices.Horstmann.chapter4;
+package com.exersices.horstmann.chapter4;
 
-import com.exersices.Horstmann.chapter2.Point;
+import com.exersices.horstmann.chapter2.Point;
 
 public class Line extends Shape implements Cloneable {
     private Point to;

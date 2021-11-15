@@ -1,4 +1,4 @@
-package com.exersices.Horstmann.chapter3;
+package com.exersices.horstmann.chapter3;
 //3.1
 //Provide an interface Measurable with a method double getMeasure() that measures an object in some way. Make Employee implement Measurable. Provide
 //a method double average(Measurable[] objects) that computes the average

@@ -1,4 +1,4 @@
-package com.exersices.Horstmann.chapter2;
+package com.exersices.horstmann.chapter2;
 //2.5
 //Implement an immutable class Point that describes a point in the plane.
 //Provide a constructor to set it to a specific point, a no-arg constructor to

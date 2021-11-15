@@ -1,16 +1,5 @@
 package com.exersices;
 
-import com.exersices.Horstmann.chapter1.Chapter1;
-import com.exersices.Horstmann.chapter2.Point;
-import com.exersices.Horstmann.chapter3.Employee;
-import com.exersices.Horstmann.chapter3.Measurable;
-
-import java.math.BigInteger;
-import java.util.*;
-
-import static java.lang.Math.*;
-import static java.lang.System.*;
-
 public class Main {
 
     public static void main(String[] args) {

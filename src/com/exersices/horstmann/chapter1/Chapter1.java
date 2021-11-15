@@ -1,4 +1,4 @@
-package com.exersices.Horstmann.chapter1;
+package com.exersices.horstmann.chapter1;
 
 import java.math.BigInteger;
 import java.util.Collections;

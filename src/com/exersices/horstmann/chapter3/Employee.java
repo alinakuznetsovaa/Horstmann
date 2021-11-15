@@ -1,4 +1,4 @@
-package com.exersices.Horstmann.chapter3;
+package com.exersices.horstmann.chapter3;
 //3.2
 //Continue with the preceding exercise and provide a method Measurable
 //largest(Measurable[] objects). Use it to find the name of the employee with

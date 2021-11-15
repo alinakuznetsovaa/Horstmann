@@ -1,4 +1,4 @@
-package com.exersices.Horstmann.chapter2;
+package com.exersices.horstmann.chapter2;
 
 
 import static java.lang.Math.*;

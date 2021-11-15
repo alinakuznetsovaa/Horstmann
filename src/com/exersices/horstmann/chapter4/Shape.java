@@ -1,5 +1,5 @@
-package com.exersices.Horstmann.chapter4;
-import com.exersices.Horstmann.chapter2.Point;
+package com.exersices.horstmann.chapter4;
+import com.exersices.horstmann.chapter2.Point;
 //4.4 and 4.5
 //Define an abstract class Shape with an instance variable of class Point, a
 //constructor, a concrete method public void moveBy(double dx, double dy) that
