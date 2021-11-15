@@ -82,13 +82,9 @@ public class Chapter1 {
     //Hint: Look up Math.nextUp in the Java API.
 
     public static void maxMin(){
-        out.println("Enter double value:");
 
-        Scanner tmp = new Scanner(in);
-        double num = tmp.nextDouble();
-
-        out.println(nextUp(num));
-        out.println(nextDown(num));
+        out.println("Max Double Value:" + Double.MAX_VALUE);
+        out.println("Min Double Value:" +nextUp(0.0d));
     }
 
     //1.6
@@ -99,7 +95,7 @@ public class Chapter1 {
         if(a == 0 || a == 1 )
             return BigInteger.valueOf(1);
         BigInteger result = BigInteger.valueOf(1);
-        
+
         for (int i = 2; i < a+1; i++) {
             result = result.multiply(BigInteger.valueOf(i));
         }

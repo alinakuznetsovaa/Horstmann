@@ -1,5 +1,10 @@
 package com.exersices;
 
+import com.exersices.horstmann.chapter1.Chapter1;
+import com.exersices.horstmann.chapter2.Point;
+import com.exersices.horstmann.chapter3.Employee;
+import com.exersices.horstmann.chapter3.Measurable;
+
 public class Main {
 
     public static void main(String[] args) {
